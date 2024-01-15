@@ -2,6 +2,7 @@ $(document).ready(function () {
     var defaultStartSelectOption = $("#start").val();
     $("#startTimeDiv").hide();
 
+    
     var weekdayTimePeriod = [
         "08:00",
         "09:00",
