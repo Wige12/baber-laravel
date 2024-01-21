@@ -13,8 +13,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', [MainController::class, 'show']);
+Route::get('/', function () {
+    return view('home.index');
+});
+Route::get('/agendamento', [MainController::class, 'show']);
 Route::post('store-form', [MainController::class, 'store']);
 Route::get('checkTypeofDay', [MainController::class, 'checkTypeofDay']);
 
