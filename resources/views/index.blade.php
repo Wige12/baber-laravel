@@ -143,7 +143,7 @@
         </div>
     </div>
 
-    <div class="container_slider" id="portfolio">
+   {{--  <div class="container_slider" id="portfolio">
         <div class="slider">
             <div class="slider__item">
                 <img src="img/1.jpg">
@@ -176,7 +176,7 @@
                 <img src="img/5.jpg">
             </div>
         </div>
-    </div>
+    </div> --}}
     @include('sweetalert::alert')
 </body>
 
